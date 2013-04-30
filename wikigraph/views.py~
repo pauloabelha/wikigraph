@@ -1,0 +1,26 @@
+# Create your views here.
+from django.shortcuts import render_to_response
+from wikiproj.graph_utils import *
+from os import path
+
+
+def home(request):
+    gu = GraphUtil()
+    graph_dir = path.join(path.dirname(__file__), 'wikiproj/graph_official.dat')    
+    gu.load_graph_adj(graph_dir)
+    nodes = gu.top_nodes(25)
+    return render_to_response('graph/home.html',{'nodes':nodes})
+
+def shortest_path(request, node1, node2):
+    gu = GraphUtil()
+    graph_dir = path.join(path.dirname(__file__), 'wikiproj/graph_official.dat')    
+    print graph_dir
+    gu.load_graph_adj(graph_dir)
+    gexf_dir = path.join(path.dirname(__file__), 'static/path.gexf')
+    print node1
+    print node2
+    print gu.G.number_of_nodes()
+    p = gu.shortest_path(node1,node2)
+    gu.create_gexf(gu.path_subgraph(p),graph_dir)
+    return render_to_response('graph/shortest_path.html',{'path':p})
+    

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Canada" label="Canada" />
+      <node id="Midfielder" label="Midfielder" />
+      <node id="Darren Fletcher" label="Darren Fletcher" />
+      <node id="1984" label="1984" />
+      <node id="Tanith Belbin" label="Tanith Belbin" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Midfielder" target="Darren Fletcher" />
+      <edge id="1" source="Darren Fletcher" target="Midfielder" />
+      <edge id="2" source="Darren Fletcher" target="1984" />
+      <edge id="3" source="1984" target="Tanith Belbin" />
+      <edge id="4" source="Tanith Belbin" target="Canada" />
+      <edge id="5" source="Tanith Belbin" target="1984" />
+    </edges>
+  </graph>
+</gexf>

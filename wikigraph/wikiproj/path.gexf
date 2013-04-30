@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="October 10" label="October 10" />
+      <node id="Interpol" label="Interpol" />
+      <node id="1933" label="1933" />
+      <node id="Nazi Germany" label="Nazi Germany" />
+      <node id="Channel 4" label="Channel 4" />
+      <node id="Shameless" label="Shameless" />
+    </nodes>
+    <edges>
+      <edge id="0" source="October 10" target="1933" />
+      <edge id="1" source="October 10" target="Channel 4" />
+      <edge id="2" source="Interpol" target="Nazi Germany" />
+      <edge id="3" source="1933" target="October 10" />
+      <edge id="4" source="Nazi Germany" target="1933" />
+      <edge id="5" source="Channel 4" target="Shameless" />
+      <edge id="6" source="Shameless" target="Channel 4" />
+    </edges>
+  </graph>
+</gexf>

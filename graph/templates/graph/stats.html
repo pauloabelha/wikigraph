@@ -1,0 +1,74 @@
+{% extends "home.html" %}
+
+{% block title %}Statistics{% endblock %}
+
+{% block extrahead %}
+
+<style type="text/css">
+  h2{
+    margin: 0 auto;
+    text-align: center;
+  } 
+
+  #content {
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+    margin:0 auto;
+  }
+
+  .container .left-col, .container .right-col, .container .center-col {
+    width: 28%;
+    float: left;
+    margin-right: 50px;
+  }
+</style>
+
+{% endblock%}
+
+{% block content %}
+<h2>WikiGraph Statistics</h2>
+<div class="container">
+  <div class="left-col">
+    <h3>Top by Degree</h3>
+    <ol class="by-degree">
+      {% for node in top_degree %}
+      <li><a href="{% url 'node_detail' node %}">{{ node }}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  <div class="center-col">
+    <h3>Top by PageRank</h3>
+    <ol class="by-pagerank">
+      {% for node in top_pagerank %}
+      <li><a href="{% url 'node_detail' node.0 %}">{{ node.0 }}</a> ({{ node.1 }})</li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  <div class="right-col">
+    <div class="histogram">
+      <h3>Histogram of Degrees, (1-25)</h3>
+      <ol>
+	{% for val in histogram %}
+	<li>{{val}}</li>
+	{% endfor %}
+      </ol>
+    </div>
+
+
+    <div class="art-points">
+      <h3>Articulation Points</h3>
+      <ol>
+	{% for val in art_points %}
+	<li>{{ val }}</li>
+	{% endfor %}
+      </ol>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

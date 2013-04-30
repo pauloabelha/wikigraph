@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="" label="" />
+      <node id="Brazil" label="Brazil" />
+      <node id="Italy" label="Italy" />
+      <node id="Canada" label="Canada" />
+      <node id="France" label="France" />
+      <node id="Wikipedia:List of articles all languages should have/Expanded" label="Wikipedia:List of articles all languages should have/Expanded" />
+      <node id="Animal" label="Animal" />
+      <node id="Europe" label="Europe" />
+      <node id="Australia" label="Australia" />
+      <node id="Germany" label="Germany" />
+      <node id="2006" label="2006" />
+      <node id="United States" label="United States" />
+      <node id="Midfielder" label="Midfielder" />
+      <node id="Switzerland" label="Switzerland" />
+      <node id="Pakistan" label="Pakistan" />
+      <node id="England" label="England" />
+      <node id="1999" label="1999" />
+      <node id="United Kingdom" label="United Kingdom" />
+      <node id="2000" label="2000" />
+      <node id="London" label="London" />
+      <node id="2007" label="2007" />
+      <node id="2004" label="2004" />
+      <node id="2005" label="2005" />
+      <node id="Japan" label="Japan" />
+      <node id="2008" label="2008" />
+    </nodes>
+    <edges>
+      <edge id="0" source="" target="Canada" />
+      <edge id="1" source="" target="Brazil" />
+      <edge id="2" source="" target="Italy" />
+      <edge id="3" source="" target="France" />
+      <edge id="4" source="" target="Wikipedia:List of articles all languages should have/Expanded" />
+      <edge id="5" source="" target="Animal" />
+      <edge id="6" source="" target="Europe" />
+      <edge id="7" source="" target="Australia" />
+      <edge id="8" source="" target="Germany" />
+      <edge id="9" source="" target="London" />
+      <edge id="10" source="" target="United States" />
+      <edge id="11" source="" target="Japan" />
+      <edge id="12" source="" target="Switzerland" />
+      <edge id="13" source="" target="Pakistan" />
+      <edge id="14" source="" target="England" />
+      <edge id="15" source="" target="1999" />
+      <edge id="16" source="" target="United Kingdom" />
+      <edge id="17" source="" target="2000" />
+      <edge id="18" source="" target="2006" />
+      <edge id="19" source="" target="2007" />
+      <edge id="20" source="" target="2004" />
+      <edge id="21" source="" target="2005" />
+      <edge id="22" source="" target="Midfielder" />
+      <edge id="23" source="" target="2008" />
+      <edge id="24" source="Brazil" target="Europe" />
+      <edge id="25" source="Brazil" target="United States" />
+      <edge id="26" source="Brazil" target="Japan" />
+      <edge id="27" source="Italy" target="Europe" />
+      <edge id="28" source="Italy" target="Switzerland" />
+      <edge id="29" source="Italy" target="France" />
+      <edge id="30" source="Canada" target="United States" />
+      <edge id="31" source="Canada" target="Australia" />
+      <edge id="32" source="Canada" target="England" />
+      <edge id="33" source="Canada" target="France" />
+      <edge id="34" source="France" target="Europe" />
+      <edge id="35" source="France" target="Italy" />
+      <edge id="36" source="France" target="United States" />
+      <edge id="37" source="France" target="Germany" />
+      <edge id="38" source="France" target="2007" />
+      <edge id="39" source="France" target="Switzerland" />
+      <edge id="40" source="Wikipedia:List of articles all languages should have/Expanded" target="Brazil" />
+      <edge id="41" source="Wikipedia:List of articles all languages should have/Expanded" target="United States" />
+      <edge id="42" source="Wikipedia:List of articles all languages should have/Expanded" target="Australia" />
+      <edge id="43" source="Wikipedia:List of articles all languages should have/Expanded" target="Italy" />
+      <edge id="44" source="Wikipedia:List of articles all languages should have/Expanded" target="Canada" />
+      <edge id="45" source="Wikipedia:List of articles all languages should have/Expanded" target="Pakistan" />
+      <edge id="46" source="Wikipedia:List of articles all languages should have/Expanded" target="Europe" />
+      <edge id="47" source="Wikipedia:List of articles all languages should have/Expanded" target="United Kingdom" />
+      <edge id="48" source="Wikipedia:List of articles all languages should have/Expanded" target="Germany" />
+      <edge id="49" source="Wikipedia:List of articles all languages should have/Expanded" target="Animal" />
+      <edge id="50" source="Wikipedia:List of articles all languages should have/Expanded" target="Japan" />
+      <edge id="51" source="Wikipedia:List of articles all languages should have/Expanded" target="Switzerland" />
+      <edge id="52" source="Wikipedia:List of articles all languages should have/Expanded" target="London" />
+      <edge id="53" source="Wikipedia:List of articles all languages should have/Expanded" target="France" />
+      <edge id="54" source="Europe" target="Switzerland" />
+      <edge id="55" source="Europe" target="Germany" />
+      <edge id="56" source="Europe" target="Italy" />
+      <edge id="57" source="Europe" target="United Kingdom" />
+      <edge id="58" source="Europe" target="France" />
+      <edge id="59" source="Australia" target="2007" />
+      <edge id="60" source="Germany" target="Europe" />
+      <edge id="61" source="Germany" target="Switzerland" />
+      <edge id="62" source="Germany" target="2005" />
+      <edge id="63" source="Germany" target="2004" />
+      <edge id="64" source="Germany" target="France" />
+      <edge id="65" source="2006" target="Canada" />
+      <edge id="66" source="2006" target="Brazil" />
+      <edge id="67" source="2006" target="Australia" />
+      <edge id="68" source="2006" target="Italy" />
+      <edge id="69" source="2006" target="Pakistan" />
+      <edge id="70" source="2006" target="United States" />
+      <edge id="71" source="2006" target="Germany" />
+      <edge id="72" source="2006" target="United Kingdom" />
+      <edge id="73" source="2006" target="Japan" />
+      <edge id="74" source="2006" target="2008" />
+      <edge id="75" source="2006" target="2007" />
+      <edge id="76" source="United States" target="Canada" />
+      <edge id="77" source="United States" target="Brazil" />
+      <edge id="78" source="United States" target="Italy" />
+      <edge id="79" source="United States" target="Europe" />
+      <edge id="80" source="United States" target="France" />
+      <edge id="81" source="United States" target="England" />
+      <edge id="82" source="United States" target="Germany" />
+      <edge id="83" source="United States" target="Japan" />
+      <edge id="84" source="Japan" target="Europe" />
+      <edge id="85" source="Switzerland" target="Europe" />
+      <edge id="86" source="Switzerland" target="Italy" />
+      <edge id="87" source="Switzerland" target="1999" />
+      <edge id="88" source="Switzerland" target="France" />
+      <edge id="89" source="Switzerland" target="Germany" />
+      <edge id="90" source="Switzerland" target="2007" />
+      <edge id="91" source="Switzerland" target="2006" />
+      <edge id="92" source="Pakistan" target="1999" />
+      <edge id="93" source="Pakistan" target="France" />
+      <edge id="94" source="Pakistan" target="United Kingdom" />
+      <edge id="95" source="Pakistan" target="2000" />
+      <edge id="96" source="Pakistan" target="2007" />
+      <edge id="97" source="Pakistan" target="2004" />
+      <edge id="98" source="Pakistan" target="2005" />
+      <edge id="99" source="Pakistan" target="2008" />
+      <edge id="100" source="England" target="Europe" />
+      <edge id="101" source="England" target="London" />
+      <edge id="102" source="England" target="Italy" />
+      <edge id="103" source="England" target="United Kingdom" />
+      <edge id="104" source="England" target="France" />
+      <edge id="105" source="1999" target="Canada" />
+      <edge id="106" source="1999" target="Brazil" />
+      <edge id="107" source="1999" target="Italy" />
+      <edge id="108" source="1999" target="Pakistan" />
+      <edge id="109" source="1999" target="London" />
+      <edge id="110" source="1999" target="Germany" />
+      <edge id="111" source="1999" target="Switzerland" />
+      <edge id="112" source="1999" target="England" />
+      <edge id="113" source="United Kingdom" target="Europe" />
+      <edge id="114" source="United Kingdom" target="England" />
+      <edge id="115" source="United Kingdom" target="London" />
+      <edge id="116" source="2000" target="Brazil" />
+      <edge id="117" source="2000" target="Pakistan" />
+      <edge id="118" source="2000" target="Australia" />
+      <edge id="119" source="2000" target="England" />
+      <edge id="120" source="2000" target="United States" />
+      <edge id="121" source="2000" target="London" />
+      <edge id="122" source="London" target="United Kingdom" />
+      <edge id="123" source="London" target="Italy" />
+      <edge id="124" source="London" target="France" />
+      <edge id="125" source="London" target="United States" />
+      <edge id="126" source="London" target="England" />
+      <edge id="127" source="London" target="2000" />
+      <edge id="128" source="London" target="Germany" />
+      <edge id="129" source="London" target="2005" />
+      <edge id="130" source="London" target="Japan" />
+      <edge id="131" source="London" target="2006" />
+      <edge id="132" source="2007" target="Canada" />
+      <edge id="133" source="2007" target="Europe" />
+      <edge id="134" source="2007" target="Australia" />
+      <edge id="135" source="2007" target="Italy" />
+      <edge id="136" source="2007" target="Pakistan" />
+      <edge id="137" source="2007" target="United States" />
+      <edge id="138" source="2007" target="Germany" />
+      <edge id="139" source="2007" target="England" />
+      <edge id="140" source="2004" target="Brazil" />
+      <edge id="141" source="2004" target="United Kingdom" />
+      <edge id="142" source="2004" target="Australia" />
+      <edge id="143" source="2005" target="United States" />
+      <edge id="144" source="2005" target="London" />
+      <edge id="145" source="2005" target="Germany" />
+      <edge id="146" source="2005" target="England" />
+      <edge id="147" source="2005" target="France" />
+      <edge id="148" source="2008" target="Canada" />
+      <edge id="149" source="2008" target="Europe" />
+      <edge id="150" source="2008" target="Australia" />
+      <edge id="151" source="2008" target="Pakistan" />
+      <edge id="152" source="2008" target="France" />
+      <edge id="153" source="2008" target="United States" />
+      <edge id="154" source="2008" target="2006" />
+      <edge id="155" source="2008" target="2004" />
+      <edge id="156" source="2008" target="2005" />
+      <edge id="157" source="2008" target="Switzerland" />
+      <edge id="158" source="2008" target="Japan" />
+      <edge id="159" source="2008" target="Brazil" />
+    </edges>
+  </graph>
+</gexf>

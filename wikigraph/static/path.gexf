@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?><gexf xmlns:ns0="http://www.gexf.net/1.1draft/viz" version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="Anatole France" label="Anatole France">
+        <ns0:color b="122" g="40" r="139" />
+      </node>
+      <node id="2005 civil unrest in France" label="2005 civil unrest in France">
+        <ns0:color b="167" g="196" r="16" />
+      </node>
+      <node id="Floyd Landis" label="Floyd Landis">
+        <ns0:color b="224" g="193" r="21" />
+      </node>
+      <node id="Kirk Cameron" label="Kirk Cameron">
+        <ns0:color b="249" g="193" r="102" />
+      </node>
+      <node id="An Inconvenient Truth" label="An Inconvenient Truth">
+        <ns0:color b="91" g="220" r="38" />
+      </node>
+      <node id="Travira Air" label="Travira Air">
+        <ns0:color b="8" g="81" r="12" />
+      </node>
+      <node id="Tina Fey" label="Tina Fey">
+        <ns0:color b="256" g="189" r="6" />
+      </node>
+      <node id="Jean Balukas" label="Jean Balukas">
+        <ns0:color b="93" g="217" r="201" />
+      </node>
+      <node id="Ben Wallace" label="Ben Wallace">
+        <ns0:color b="114" g="243" r="154" />
+      </node>
+      <node id="Intelligence quotient" label="Intelligence quotient">
+        <ns0:color b="94" g="127" r="226" />
+      </node>
+      <node id="Half of a Yellow Sun" label="Half of a Yellow Sun">
+        <ns0:color b="151" g="188" r="255" />
+      </node>
+      <node id="Gilbert Thomas Carter" label="Gilbert Thomas Carter">
+        <ns0:color b="51" g="16" r="110" />
+      </node>
+      <node id="Of Mice and Men" label="Of Mice and Men">
+        <ns0:color b="240" g="123" r="140" />
+      </node>
+      <node id="Music" label="Music">
+        <ns0:color b="171" g="235" r="197" />
+      </node>
+      <node id="John D. Rockefeller" label="John D. Rockefeller">
+        <ns0:color b="34" g="149" r="73" />
+      </node>
+      <node id="Curitiba" label="Curitiba">
+        <ns0:color b="202" g="18" r="44" />
+      </node>
+      <node id="Michael E. DeBakey" label="Michael E. DeBakey">
+        <ns0:color b="169" g="10" r="209" />
+      </node>
+      <node id="JosÃ© RaÃºl Capablanca" label="JosÃ© RaÃºl Capablanca">
+        <ns0:color b="60" g="85" r="46" />
+      </node>
+      <node id="Sweatshop" label="Sweatshop">
+        <ns0:color b="209" g="53" r="130" />
+      </node>
+      <node id="The Lightning Thief" label="The Lightning Thief">
+        <ns0:color b="180" g="185" r="12" />
+      </node>
+      <node id="List of Baptists" label="List of Baptists">
+        <ns0:color b="234" g="125" r="66" />
+      </node>
+      <node id="Bridge to Terabithia (2007 film)" label="Bridge to Terabithia (2007 film)">
+        <ns0:color b="136" g="231" r="77" />
+      </node>
+      <node id="EncyclopÃ¦dia Britannica" label="EncyclopÃ¦dia Britannica">
+        <ns0:color b="205" g="15" r="65" />
+      </node>
+      <node id="Bobby Dodd" label="Bobby Dodd">
+        <ns0:color b="26" g="180" r="120" />
+      </node>
+      <node id="Teen idol" label="Teen idol">
+        <ns0:color b="17" g="69" r="150" />
+      </node>
+      <node id="Destalinization" label="Destalinization">
+        <ns0:color b="230" g="10" r="205" />
+      </node>
+      <node id="Moscow" label="Moscow">
+        <ns0:color b="98" g="56" r="82" />
+      </node>
+      <node id="April 8" label="April 8">
+        <ns0:color b="85" g="99" r="77" />
+      </node>
+      <node id="Dartmouth College" label="Dartmouth College">
+        <ns0:color b="136" g="63" r="80" />
+      </node>
+      <node id="Knol" label="Knol">
+        <ns0:color b="203" g="133" r="122" />
+      </node>
+      <node id="Pluto" label="Pluto">
+        <ns0:color b="225" g="171" r="180" />
+      </node>
+      <node id="Jon Voight" label="Jon Voight">
+        <ns0:color b="196" g="254" r="2" />
+      </node>
+      <node id="Red Dead Redemption" label="Red Dead Redemption">
+        <ns0:color b="88" g="18" r="58" />
+      </node>
+      <node id="Across the Universe (movie)" label="Across the Universe (movie)">
+        <ns0:color b="75" g="141" r="213" />
+      </node>
+      <node id="Borat Sagdiyev" label="Borat Sagdiyev">
+        <ns0:color b="253" g="28" r="241" />
+      </node>
+      <node id="Graphics" label="Graphics">
+        <ns0:color b="25" g="9" r="79" />
+      </node>
+      <node id="The West Wing" label="The West Wing">
+        <ns0:color b="200" g="3" r="58" />
+      </node>
+      <node id="Claude LÃ©vi-Strauss" label="Claude LÃ©vi-Strauss">
+        <ns0:color b="106" g="197" r="125" />
+      </node>
+      <node id="Fried Green Tomatoes (film)" label="Fried Green Tomatoes (film)">
+        <ns0:color b="137" g="238" r="34" />
+      </node>
+      <node id="David Paterson" label="David Paterson">
+        <ns0:color b="191" g="132" r="23" />
+      </node>
+      <node id="Jesse Helms" label="Jesse Helms">
+        <ns0:color b="92" g="4" r="18" />
+      </node>
+      <node id="Marilyn Monroe" label="Marilyn Monroe">
+        <ns0:color b="169" g="185" r="247" />
+      </node>
+      <node id="Jamie Lee Curtis" label="Jamie Lee Curtis">
+        <ns0:color b="81" g="12" r="203" />
+      </node>
+      <node id="U Thant" label="U Thant">
+        <ns0:color b="30" g="7" r="96" />
+      </node>
+      <node id="September 29" label="September 29">
+        <ns0:color b="80" g="99" r="227" />
+      </node>
+      <node id="Pervez Musharraf" label="Pervez Musharraf">
+        <ns0:color b="134" g="134" r="30" />
+      </node>
+      <node id="Khalistan" label="Khalistan">
+        <ns0:color b="210" g="26" r="3" />
+      </node>
+      <node id="Ella Fitzgerald" label="Ella Fitzgerald">
+        <ns0:color b="236" g="14" r="230" />
+      </node>
+      <node id="American Idiot (album)" label="American Idiot (album)">
+        <ns0:color b="38" g="87" r="185" />
+      </node>
+      <node id="Carl Zimmer" label="Carl Zimmer">
+        <ns0:color b="186" g="126" r="178" />
+      </node>
+      <node id="Alberto Gonzales" label="Alberto Gonzales">
+        <ns0:color b="106" g="19" r="91" />
+      </node>
+      <node id="Tool (band)" label="Tool (band)">
+        <ns0:color b="23" g="166" r="211" />
+      </node>
+      <node id="Joe Biden" label="Joe Biden">
+        <ns0:color b="210" g="40" r="120" />
+      </node>
+      <node id="The Titan's Curse" label="The Titan's Curse">
+        <ns0:color b="246" g="175" r="69" />
+      </node>
+      <node id="Monarch (butterfly)" label="Monarch (butterfly)">
+        <ns0:color b="71" g="189" r="114" />
+      </node>
+      <node id="List of Soundgarden awards" label="List of Soundgarden awards">
+        <ns0:color b="223" g="95" r="47" />
+      </node>
+      <node id="The Best Damn Thing (album)" label="The Best Damn Thing (album)">
+        <ns0:color b="248" g="59" r="28" />
+      </node>
+      <node id="1992" label="1992">
+        <ns0:color b="13" g="107" r="102" />
+      </node>
+      <node id="Anna Wintour" label="Anna Wintour">
+        <ns0:color b="58" g="255" r="8" />
+      </node>
+      <node id="Three Cups of Tea" label="Three Cups of Tea">
+        <ns0:color b="235" g="247" r="81" />
+      </node>
+      <node id="Rise Against" label="Rise Against">
+        <ns0:color b="30" g="210" r="27" />
+      </node>
+      <node id="Dizzy Gillespie" label="Dizzy Gillespie">
+        <ns0:color b="17" g="233" r="149" />
+      </node>
+      <node id="Anti-Armenianism" label="Anti-Armenianism">
+        <ns0:color b="95" g="19" r="152" />
+      </node>
+      <node id="Washington Mutual" label="Washington Mutual">
+        <ns0:color b="239" g="133" r="152" />
+      </node>
+      <node id="Major League Baseball Most Valuable Player Award" label="Major League Baseball Most Valuable Player Award">
+        <ns0:color b="93" g="101" r="118" />
+      </node>
+      <node id="Martin Gardner" label="Martin Gardner">
+        <ns0:color b="14" g="115" r="34" />
+      </node>
+      <node id="Leo Tolstoy" label="Leo Tolstoy">
+        <ns0:color b="21" g="253" r="96" />
+      </node>
+      <node id="November 2008 Mumbai attacks" label="November 2008 Mumbai attacks">
+        <ns0:color b="254" g="106" r="249" />
+      </node>
+      <node id="SÃ©golÃ¨ne Royal" label="SÃ©golÃ¨ne Royal">
+        <ns0:color b="241" g="223" r="196" />
+      </node>
+      <node id="Essjay controversy" label="Essjay controversy">
+        <ns0:color b="219" g="38" r="147" />
+      </node>
+      <node id="The New York Times" label="The New York Times">
+        <ns0:color b="237" g="245" r="214" />
+      </node>
+      <node id="2008 South Ossetia war" label="2008 South Ossetia war">
+        <ns0:color b="240" g="146" r="130" />
+      </node>
+      <node id="Noam Chomsky" label="Noam Chomsky">
+        <ns0:color b="136" g="51" r="3" />
+      </node>
+      <node id="Template:Cite newspaper/doc" label="Template:Cite newspaper/doc">
+        <ns0:color b="160" g="231" r="50" />
+      </node>
+      <node id="Michael I of Romania" label="Michael I of Romania">
+        <ns0:color b="39" g="244" r="242" />
+      </node>
+      <node id="Roy Scheider" label="Roy Scheider">
+        <ns0:color b="199" g="107" r="83" />
+      </node>
+      <node id="Up (2009 film)" label="Up (2009 film)">
+        <ns0:color b="98" g="48" r="234" />
+      </node>
+      <node id="Bill Ayers" label="Bill Ayers">
+        <ns0:color b="28" g="52" r="151" />
+      </node>
+      <node id="Falafel" label="Falafel">
+        <ns0:color b="211" g="236" r="88" />
+      </node>
+      <node id="Assyrian Genocide" label="Assyrian Genocide">
+        <ns0:color b="12" g="254" r="160" />
+      </node>
+      <node id="Stacy Schiff" label="Stacy Schiff">
+        <ns0:color b="145" g="97" r="36" />
+      </node>
+      <node id="Jackie Robinson" label="Jackie Robinson">
+        <ns0:color b="199" g="199" r="212" />
+      </node>
+    </nodes>
+    <edges>
+      <edge id="322523" source="Anatole France" target="The New York Times" />
+      <edge id="424111" source="2005 civil unrest in France" target="The New York Times" />
+      <edge id="73715" source="Floyd Landis" target="The New York Times" />
+      <edge id="308110" source="Kirk Cameron" target="The New York Times" />
+      <edge id="263888" source="An Inconvenient Truth" target="The New York Times" />
+      <edge id="134495" source="Tina Fey" target="The New York Times" />
+      <edge id="291382" source="Jean Balukas" target="The New York Times" />
+      <edge id="169417" source="Ben Wallace" target="The New York Times" />
+      <edge id="120499" source="Intelligence quotient" target="The New York Times" />
+      <edge id="141745" source="Half of a Yellow Sun" target="The New York Times" />
+      <edge id="189330" source="Of Mice and Men" target="The New York Times" />
+      <edge id="322803" source="Music" target="The New York Times" />
+      <edge id="402827" source="John D. Rockefeller" target="The New York Times" />
+      <edge id="247064" source="Curitiba" target="The New York Times" />
+      <edge id="247050" source="Curitiba" target="1992" />
+      <edge id="246982" source="Curitiba" target="Music" />
+      <edge id="124216" source="Michael E. DeBakey" target="The New York Times" />
+      <edge id="480765" source="Noam Chomsky" target="The New York Times" />
+      <edge id="97656" source="JosÃ© RaÃºl Capablanca" target="Moscow" />
+      <edge id="97655" source="JosÃ© RaÃºl Capablanca" target="The New York Times" />
+      <edge id="180019" source="Sweatshop" target="The New York Times" />
+      <edge id="80521" source="The Lightning Thief" target="The New York Times" />
+      <edge id="274958" source="Michael I of Romania" target="The New York Times" />
+      <edge id="191710" source="Bridge to Terabithia (2007 film)" target="The New York Times" />
+      <edge id="65359" source="Assyrian Genocide" target="The New York Times" />
+      <edge id="177119" source="EncyclopÃ¦dia Britannica" target="The New York Times" />
+      <edge id="421791" source="Bobby Dodd" target="The New York Times" />
+      <edge id="388361" source="Teen idol" target="The New York Times" />
+      <edge id="441991" source="Destalinization" target="The New York Times" />
+      <edge id="421899" source="Moscow" target="The New York Times" />
+      <edge id="66692" source="April 8" target="1992" />
+      <edge id="66726" source="April 8" target="The New York Times" />
+      <edge id="114296" source="Knol" target="The New York Times" />
+      <edge id="452585" source="Pluto" target="The New York Times" />
+      <edge id="131784" source="Jon Voight" target="The New York Times" />
+      <edge id="198232" source="Across the Universe (movie)" target="The New York Times" />
+      <edge id="300094" source="Borat Sagdiyev" target="The New York Times" />
+      <edge id="425376" source="Graphics" target="The New York Times" />
+      <edge id="393198" source="The West Wing" target="Joe Biden" />
+      <edge id="393229" source="The West Wing" target="The New York Times" />
+      <edge id="66784" source="Gilbert Thomas Carter" target="The New York Times" />
+      <edge id="69866" source="Fried Green Tomatoes (film)" target="The New York Times" />
+      <edge id="141209" source="Alberto Gonzales" target="The New York Times" />
+      <edge id="315881" source="Jesse Helms" target="Joe Biden" />
+      <edge id="315882" source="Jesse Helms" target="The New York Times" />
+      <edge id="266597" source="Marilyn Monroe" target="The New York Times" />
+      <edge id="362993" source="Jamie Lee Curtis" target="1992" />
+      <edge id="363000" source="Jamie Lee Curtis" target="The New York Times" />
+      <edge id="243906" source="Major League Baseball Most Valuable Player Award" target="The New York Times" />
+      <edge id="243915" source="Major League Baseball Most Valuable Player Award" target="Jackie Robinson" />
+      <edge id="92151" source="September 29" target="1992" />
+      <edge id="92159" source="September 29" target="The New York Times" />
+      <edge id="63931" source="Pervez Musharraf" target="The New York Times" />
+      <edge id="344179" source="Khalistan" target="The New York Times" />
+      <edge id="344186" source="Khalistan" target="Jesse Helms" />
+      <edge id="67888" source="Ella Fitzgerald" target="Marilyn Monroe" />
+      <edge id="67908" source="Ella Fitzgerald" target="Dizzy Gillespie" />
+      <edge id="67898" source="Ella Fitzgerald" target="The New York Times" />
+      <edge id="415462" source="American Idiot (album)" target="The New York Times" />
+      <edge id="345523" source="Carl Zimmer" target="The New York Times" />
+      <edge id="311393" source="David Paterson" target="The New York Times" />
+      <edge id="278858" source="Tool (band)" target="1992" />
+      <edge id="278840" source="Tool (band)" target="The New York Times" />
+      <edge id="280877" source="Joe Biden" target="The New York Times" />
+      <edge id="280862" source="Joe Biden" target="Jesse Helms" />
+      <edge id="169209" source="The Titan's Curse" target="The New York Times" />
+      <edge id="436503" source="Monarch (butterfly)" target="The New York Times" />
+      <edge id="311126" source="List of Soundgarden awards" target="The New York Times" />
+      <edge id="470662" source="The Best Damn Thing (album)" target="The New York Times" />
+      <edge id="90511" source="1992" target="April 8" />
+      <edge id="90781" source="1992" target="The New York Times" />
+      <edge id="334696" source="Anna Wintour" target="The New York Times" />
+      <edge id="310442" source="Three Cups of Tea" target="The New York Times" />
+      <edge id="405724" source="Rise Against" target="The New York Times" />
+      <edge id="362218" source="Dizzy Gillespie" target="The New York Times" />
+      <edge id="144893" source="Anti-Armenianism" target="The New York Times" />
+      <edge id="384645" source="Washington Mutual" target="The New York Times" />
+      <edge id="403205" source="U Thant" target="The New York Times" />
+      <edge id="138643" source="Martin Gardner" target="The New York Times" />
+      <edge id="297472" source="Claude LÃ©vi-Strauss" target="The New York Times" />
+      <edge id="219422" source="November 2008 Mumbai attacks" target="The New York Times" />
+      <edge id="98083" source="SÃ©golÃ¨ne Royal" target="The New York Times" />
+      <edge id="372087" source="Leo Tolstoy" target="Moscow" />
+      <edge id="372108" source="Leo Tolstoy" target="The New York Times" />
+      <edge id="420762" source="Essjay controversy" target="The New York Times" />
+      <edge id="420781" source="Essjay controversy" target="Stacy Schiff" />
+      <edge id="180691" source="Travira Air" target="The New York Times" />
+      <edge id="189560" source="List of Baptists" target="The New York Times" />
+      <edge id="367946" source="2008 South Ossetia war" target="The New York Times" />
+      <edge id="132154" source="Template:Cite newspaper/doc" target="The New York Times" />
+      <edge id="400301" source="Dartmouth College" target="The New York Times" />
+      <edge id="399985" source="Roy Scheider" target="The New York Times" />
+      <edge id="200359" source="Up (2009 film)" target="The New York Times" />
+      <edge id="410201" source="Bill Ayers" target="The New York Times" />
+      <edge id="214301" source="Falafel" target="The New York Times" />
+      <edge id="415034" source="Red Dead Redemption" target="The New York Times" />
+      <edge id="194465" source="Stacy Schiff" target="The New York Times" />
+      <edge id="194468" source="Stacy Schiff" target="Essjay controversy" />
+      <edge id="362560" source="Jackie Robinson" target="The New York Times" />
+    </edges>
+  </graph>
+</gexf>

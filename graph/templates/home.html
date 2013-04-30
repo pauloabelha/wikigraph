@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}WikiGraph{% endblock %}</title>
+    <style type="text/css">
+      #content a{
+      text-decoration: none;
+      color: black;
+      }
+      
+      #content a:hover {
+      text-decoration: underline;
+      }
+
+    </style>
+{% block extrahead %}
+    <link rel="stylesheet" href="style.css" />
+
+{% endblock %}
+</head>
+
+<body>
+    <div id="content">
+        {% block content %}
+	<ol>
+	{% for n in nodes %}
+	
+	<li>{{ n }}</li>
+
+	{% endfor %}
+	
+	{% endblock %}
+	</ol>
+    </div>
+</body>
+</html>

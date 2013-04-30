@@ -1,0 +1,62 @@
+{% extends "home.html" %}
+
+
+{% block title %}WikiGraph{%  endblock %}
+
+{% block extrahead %}
+{% load staticfiles %}
+<script type = "text/javascript" src="{% static "js/sigma.min.js" %}"> </script>
+<script type = "text/javascript" src="{% static "js/sigma.parseGexf.js" %}"> </script>
+<script type = "text/javascript" src="{% static "graph_home.js" %}"> </script>
+
+<style type="text/css">
+  .container{
+    width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .row{
+    margin-left = -30px;
+  }
+
+  .sigma-parent{
+    position: relative;
+    border-radius: 4px;
+    background: #222;
+    height: 500px;
+  }
+  .sigma-expand{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+  }
+
+  .path {
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  h2{
+    margin: 0 auto;
+    text-align: center;
+  } 
+</style>
+
+{% endblock %}
+
+{% block content %}
+<h2>WikiGraph</h2>
+<div class = "container">
+  <div class= "row">
+    <div class= "sigma-parent">
+      <div class="sigma-expand" id = "sigma-example">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

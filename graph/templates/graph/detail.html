@@ -1,0 +1,96 @@
+{% extends "home.html" %}
+
+{% block title %} {{node}} {% endblock %}
+
+{% block extrahead %}
+{% load staticfiles %}
+<script type = "text/javascript" src="{% static "js/sigma.min.js" %}"> </script>
+<script type = "text/javascript" src="{% static "js/sigma.parseGexf.js" %}"> </script>
+<script type = "text/javascript" src="{% static "graph_home.js" %}"> </script>
+
+<style type="text/css">
+  .container{
+    width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .row{
+    margin-left = -30px;
+  }
+
+  .sigma-parent{
+    position: relative;
+    border-radius: 4px;
+    background: #222;
+    height: 500px;
+  }
+  .sigma-expand{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+  }
+
+  #content h2, #content .info {
+    text-align: center;
+  }
+
+  .neighbors {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .in-edges ul, .out-edges ul {
+    list-style: none;
+  }
+
+  .in-edges, .out-edges{
+    float: left;
+    width: 48%;
+  }
+
+  .in-edges {
+    margin-right: 35px;
+  }
+</style>
+
+{% endblock %}
+
+{% block content %}
+<h2>{{ node }}</h2>
+<div class="info">
+  <h4>In-Edges/Backlinks: {{in_edges_num}}</h4>
+  <h4>Out-edges/links: {{out_edges_num}}</h4>
+</div>
+<div class="container">
+  <div class= "row">
+    <div class= "sigma-parent">
+      <div class="sigma-expand" id = "sigma-example">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="neighbors">
+  <div class="in-edges">
+    <h3>Articles that link to {{node}}</h3>
+    <ul>
+    {% for edge in in_edges %}
+    <li><a href="{% url 'node_detail' edge %}">{{edge}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="out-edges">
+    <h3>Articles that {{node}} links to</h3>
+    <ul>
+      {% for edge in out_edges %}
+      <li><a href="{% url 'node_detail' edge %}">{{edge}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
+

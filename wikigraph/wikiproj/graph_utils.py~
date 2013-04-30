@@ -1,0 +1,59 @@
+from database import Redis
+import networkx as nx
+import matplotlib as mpl
+from operator import itemgetter
+
+
+class GraphUtil:
+	def __init__(self):
+		self.database = Redis()
+		self.G = None
+	
+
+	def build_redis_to_adj(self, filename):
+		self.G = nx.DiGraph()
+		articles = self.database.get_slist_members("articles")
+		for article in articles:
+			links = self.database.get_slist_members(article)
+			for link in links:
+				if link in articles:
+					self.G.add_edge(link,article)
+		nx.write_gml(self.G,filename)
+	
+	def build_adj_to_gml(self, filename, path):
+		self.G = nx.read_adjlist(filename,delimiter=",",create_using=nx.DiGraph(data=True))
+		nx.write_gml(self.G,path)
+	
+	def load_graph_gml(self, filename):
+		self.G = nx.read_gml(filename, relabel=True)
+		
+	def write_graph_gexf(self, filename):
+		nx.write_gexf(self.G, filename)
+
+	def load_graph_gexf(self, filename):
+		self.G = nx.read_gexf(filename, create_using=nx.DiGraph().reverse(copy=False))
+		
+	def load_graph_adj(self, filename):
+		self.G = nx.read_adjlist(filename, delimiter=",",create_using=nx.DiGraph()).reverse(copy=False)
+		 
+	def degree_histogram(self):
+		return nx.degree_histogram(self.G)
+	
+	def shortest_path(self, start, end):
+		return nx.shortest_path(self.G,start,end)
+
+	def path_subgraph(self, path):
+		return self.G.subgraph(path)
+		
+	'''
+	DJANGO helper functions
+	'''
+	def top_nodes(self, n):
+		nodes = sorted(self.G.degree_iter(),key=itemgetter(1),reverse=True)[1:n]
+		tops = [i[0] for i in nodes]
+		return tops
+
+	def create_gexf(self, nodes,  filename):
+		nx.write_gexf(nodes, filename)
+		
+		

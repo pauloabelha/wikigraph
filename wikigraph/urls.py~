@@ -1,0 +1,10 @@
+from django.conf.urls import patterns, url
+
+from wikigraph import views
+
+urlpatterns = patterns('',
+                       url(r'^/$', views.home, name='home'),
+                       #url(r'^(?P<isbn>\d+)/$', views.details, name='details'),
+                       url(r'^shortest_path/(?P<node1>\w+)/(?P<node2>\w+)/', views.shortest_path, name='shortest_path'),
+)
+
