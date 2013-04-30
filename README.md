@@ -5,9 +5,6 @@ Basic Crawling and Data Visualization of Simple Wikipedia. Could be extended to 
 
 ##Dependencies
 - NetworkX Graph Library
-'''shell
-pip install networkx
-'''
 - SciPy (for NetworkX algorithms)
 - Redis
 - lxml (Python lib)
@@ -15,7 +12,7 @@ pip install networkx
 - redis (Python lib)
 - Django (Python lib)
 
-'''shell
+```shell
 sudo apt-get install python-scipy
 pip install django
-'''
+```
